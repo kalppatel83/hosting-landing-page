@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +6,7 @@
 }
 :root {
   --primary-background: #111010;
+  --secondary-background: #fff;
   --primary-text: #fff;
   --secondary-text: #181717;
   --subtext: #7e7d7d;
@@ -14,11 +15,10 @@
 html {
   font-size: 62.3%;
   background: var(--primary-background);
-
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
 }
-
+/* TODO: Navbar */
 nav {
   max-width: 1440px;
   margin: 1.8rem auto;
@@ -59,7 +59,7 @@ nav {
   cursor: pointer;
   background: #0e73cb;
 }
-
+/* TODO: Hero Section */
 .hero {
   max-width: 1440px;
   display: flex;
@@ -109,7 +109,7 @@ nav {
   background: none;
   border: 2px solid var(--primary-text);
 }
-
+/* TODO: Brand LOGO */
 .brands-logo {
   background: #1d1c1c;
 }
@@ -120,4 +120,53 @@ nav {
   display: flex;
   padding: 3rem;
   justify-content: space-between;
+}
+.features-section {
+  background: var(--secondary-background);
+}
+.features-title {
+  font-size: 5rem;
+  padding-top: 6rem;
+  font-weight: 500;
+  text-align: center;
+}
+.features-description {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1.5rem;
+  color: var(--subtext);
+  line-height: 1.6;
+}
+
+.features-cards {
+  display: flex;
+  max-width: 1024px;
+  margin: 0 auto;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-top: 8rem;
+}
+.card {
+  border: 1px solid var(--subtext);
+  border-radius: 30px;
+  text-align: center;
+  padding: 2rem 1.5rem 3rem;
+}
+.card-img {
+  width: 70px;
+}
+.card-title {
+  font-weight: 500;
+  margin-top: 2rem;
+  font-size: 2.5rem;
+}
+.card-description {
+  color: var(--subtext);
+  margin-top: 1.2rem;
+  font-size: 1.8rem;
+}
+.card:nth-child(2) {
+  background-color: var(--primary-background);
+  color: #fff;
+  /* margin-top: -5rem; */
 }
