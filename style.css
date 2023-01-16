@@ -21,7 +21,7 @@ html {
 
 nav {
   max-width: 1440px;
-  margin: 1.8rem;
+  margin: 1.8rem auto;
   display: flex;
   align-items: center;
   color: var(--subtext);
