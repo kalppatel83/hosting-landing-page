@@ -14,7 +14,7 @@
 html {
   font-size: 62.3%;
   background: var(--primary-background);
-  max-width: 1440px;
+
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
 }
@@ -108,4 +108,16 @@ nav {
   padding: 1.5rem 2.3rem;
   background: none;
   border: 2px solid var(--primary-text);
+}
+
+.brands-logo {
+  background: #1d1c1c;
+}
+.logo-container {
+  margin: 0 auto;
+  max-width: 1280px;
+
+  display: flex;
+  padding: 3rem;
+  justify-content: space-between;
 }
