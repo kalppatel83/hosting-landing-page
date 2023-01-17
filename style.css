@@ -7,7 +7,7 @@
 :root {
   --primary-background: #111010;
   --secondary-background: #fff;
-  --primary-text: #fff;
+  --primary-text: #ffffff;
   --secondary-text: #181717;
   --subtext: #7e7d7d;
   --secondary-color: #0c8bfd;
@@ -165,8 +165,50 @@ nav {
   margin-top: 1.2rem;
   font-size: 1.8rem;
 }
-.card:nth-child(2) {
+.card:nth-child(3) {
   background-color: var(--primary-background);
   color: #fff;
   /* margin-top: -5rem; */
+}
+/* Business-description-setion */
+.businees-section {
+  background: var(--secondary-background);
+}
+.business-container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.business-title {
+  padding: 7rem 0;
+  font-size: 5rem;
+}
+.drop-down {
+  display: flex;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.dropdown-right {
+  width: 50%;
+}
+.dropdown-left {
+  width: 50%;
+}
+.drop-menu-container {
+  display: flex;
+  justify-content: space-between;
+  background: none;
+  border: 1px solid var(--subtext);
+  align-items: center;
+  border-radius: 35px;
+  padding: 1.44rem 3rem;
+  margin-bottom: 1.2rem;
+}
+.drop-menu-title {
+  font-size: 2.2rem;
+}
+.drop-menu-container:nth-child(1) {
+  background-color: var(--secondary-color);
+}
+.title-white {
+  color: var(--primary-text);
 }
