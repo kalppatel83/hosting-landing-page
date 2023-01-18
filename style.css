@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -186,6 +186,7 @@ nav {
   display: flex;
   max-width: 1024px;
   margin: 0 auto;
+  padding-bottom: 2rem;
 }
 .dropdown-right {
   width: 50%;
@@ -249,4 +250,96 @@ nav {
   align-items: center;
   justify-content: flex-start;
   padding: 1.2rem;
+}
+
+.section-title {
+  display: flex;
+  max-width: 1024px;
+  margin: 5rem auto;
+  justify-content: space-between;
+  padding-top: 5rem;
+}
+.arrow-left {
+  width: 4.5rem;
+}
+.arrow-right {
+  width: 4.5rem;
+}
+.pricing-section-title {
+  font-size: 5.2rem;
+  color: var(--primary-text);
+  text-align: center;
+  margin-top: -5rem;
+}
+.pricing-cards-container {
+  max-width: 1024px;
+  margin: 6rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+.pricing-card {
+  background: var(--secondary-background);
+  padding: 2rem 1.7rem;
+  border-radius: 2rem;
+}
+.pricing-card-title {
+  font-size: 3rem;
+}
+
+.monthly-price {
+  font-size: 3.2rem;
+  margin: 0.8rem 0;
+}
+.monthly-price > .span {
+  font-size: 2.4rem;
+  color: var(--subtext);
+}
+
+.pricing-card-description {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.border-bottom {
+  margin: 2rem 0;
+  border-bottom: 2px solid #dcdbdb;
+}
+
+.pricing-features-list {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.pricing-list-items {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+.pricing-list-items > h4 {
+  margin-left: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.pricing-cta-btn {
+  background: var(--secondary-color);
+  padding: 1.3rem 0;
+  border-radius: 2.5rem;
+  color: var(--primary-text);
+  border: none;
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.pricing-card:nth-child(2) {
+  background: var(--secondary-color);
+  color: var(--primary-text);
+}
+.btn-2 {
+  background: var(--secondary-background);
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+.span-2 {
+  color: #85c5fe;
 }
