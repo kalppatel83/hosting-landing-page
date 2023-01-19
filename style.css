@@ -399,3 +399,16 @@ nav {
   border: 1.2px solid var(--subtext);
   color: #1d1c1c;
 }
+.signup-cta {
+  padding: 3rem 0;
+}
+.signup-cta-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  color: var(--primary-text);
+}
+.signup-cta-title {
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 400;
+}
