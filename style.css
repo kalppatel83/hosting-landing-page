@@ -343,3 +343,59 @@ nav {
 .span-2 {
   color: #85c5fe;
 }
+.testiomonial-section {
+  background: var(--secondary-background);
+}
+
+.testiomonial-section-part1 {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 4rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.testiomonial-heading {
+  font-size: 5rem;
+}
+.testiomonial-description {
+  font-size: 1.8rem;
+  color: var(--subtext);
+}
+.testiomonial-carousel-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.testiomonial-card {
+  background: var(--primary-background);
+  color: var(--primary-text);
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 1.5rem;
+}
+.author-details {
+  margin: 1.6rem 0;
+}
+.testiomonial-author {
+  font-size: 1.8rem;
+}
+
+.testiomonial-author-designation {
+  font-size: 1.45rem;
+  color: var(--subtext);
+}
+.testiomonial {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+.testiomonial-card:nth-child(even) {
+  background: var(--secondary-background);
+  border: 1.2px solid var(--subtext);
+  color: #1d1c1c;
+}
