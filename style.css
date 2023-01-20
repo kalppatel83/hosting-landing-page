@@ -348,6 +348,9 @@ nav {
   font-weight: 600;
 }
 
+.btn-1 {
+  margin-top: 2rem;
+}
 .pricing-card:nth-child(2) {
   background: var(--secondary-color);
   color: var(--primary-text);
