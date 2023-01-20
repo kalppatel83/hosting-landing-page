@@ -110,6 +110,10 @@ nav {
   background: none;
   border: 2px solid var(--primary-text);
 }
+.secondary-btn:hover {
+  background: var(--secondary-color);
+  border: none;
+}
 /* TODO: Brand LOGO */
 .brands-logo {
   background: #1d1c1c;
