@@ -48,6 +48,7 @@ nav {
   padding: 0.8rem 2.5rem;
   border-radius: 25px;
   outline: none;
+  cursor: pointer;
 }
 .nav-login-btn {
   font-size: 1.8rem;
@@ -411,4 +412,35 @@ nav {
   text-align: center;
   font-size: 4.5rem;
   font-weight: 400;
+}
+.cta-form {
+  max-width: 970px;
+  margin: 3rem auto;
+  background: #292828;
+  padding: 3rem 0;
+  border-radius: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+input {
+  padding: 1.2rem 1.2rem;
+  font-size: 1.8rem;
+  background: #3e3d3d;
+  border: none;
+  color: var(--primary-text);
+  outline: none;
+  border-radius: 1.8rem;
+  margin-left: 2rem;
+}
+::placeholder {
+  font-size: 1.5rem;
+}
+.cta-form-btn {
+  background: var(--secondary-color);
+  color: var(--primary-text);
+  margin-left: 4rem;
+  border: 0;
+}
+.cta-form-btn:hover {
+  background: #0e73cb;
 }
