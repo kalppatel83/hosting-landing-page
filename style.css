@@ -203,11 +203,14 @@ nav {
   display: flex;
   max-width: 1024px;
   margin: 0 auto;
-  padding-bottom: 2rem;
+  padding-bottom: 8rem;
 }
 .dropdown-right {
   width: 50%;
   margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .dropdown-left {
   width: 50%;
@@ -220,7 +223,7 @@ nav {
   align-items: center;
   border-radius: 35px;
   padding: 1.44rem 3rem;
-  margin-bottom: 2rem;
+  /* TODO: Not working margin-bottom: 2.2rem; */
   cursor: pointer;
 }
 .drop-menu-title {
