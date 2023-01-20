@@ -482,6 +482,7 @@ footer {
 .footer-col h4 {
   font-size: 3rem;
   margin-bottom: 2rem;
+  font-weight: 600;
 }
 
 .footer-list-items {
@@ -494,7 +495,14 @@ footer {
   display: inline-block;
   font-size: 1.6rem;
 }
+.footer-col h4:hover {
+  color: var(--secondary-color);
+}
+.footer-list-items a:hover {
+  color: var(--secondary-color);
+}
 .bottom-logo {
   max-width: 1024px;
-  margin: 4.5rem auto;
+  margin: 2.6rem auto;
+  cursor: pointer;
 }
