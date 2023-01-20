@@ -152,6 +152,7 @@ nav {
   border-radius: 30px;
   text-align: center;
   padding: 2rem 1.5rem 3rem;
+  cursor: pointer;
 }
 .card-img {
   width: 70px;
@@ -166,10 +167,21 @@ nav {
   margin-top: 1.2rem;
   font-size: 1.8rem;
 }
-.card:nth-child(3) {
+
+.card:nth-child(2) {
   background-color: var(--primary-background);
   color: #fff;
   /* margin-top: -5rem; */
+  position: relative;
+  bottom: 3rem;
+}
+.card:hover {
+  background: var(--primary-background);
+  color: #fff;
+}
+.card:nth-child(2):hover {
+  background: var(--secondary-background);
+  color: var(--secondary-text);
 }
 /* Business-description-setion */
 .businees-section {
